@@ -9,11 +9,11 @@ df['species']=iris.target
 print(df.head())
 
 #Scatter plot : Sepal Length vs Sepal Width (comment this to check the accuracy)
-#plt.scatter(df['sepal length (cm)'],df['sepal width (cm)'],c=df['species'])
-#plt.xlabel('Sepal Length (cm)')
-#plt.ylabel('Sepal Width (cm)')
-#plt.title('Iris Sepal Length vs Width')
-#plt.show()
+plt.scatter(df['sepal length (cm)'],df['sepal width (cm)'],c=df['species'])
+plt.xlabel('Sepal Length (cm)')
+plt.ylabel('Sepal Width (cm)')
+plt.title('Iris Sepal Length vs Width')
+plt.show()
 
 from sklearn.model_selection import train_test_split
 
